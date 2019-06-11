@@ -9,3 +9,4 @@ switch ($request_uri[0]) {
   case '/list':
     require 'list.php';
 }
+?>
