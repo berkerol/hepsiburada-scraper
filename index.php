@@ -4,7 +4,7 @@ $request_uri = explode('?', $_SERVER['REQUEST_URI'], 2);
 
 switch ($request_uri[0]) {
   case '/':
-    require 'home.php';
+    require 'home.html';
     break;
   case '/list':
     require 'list.php';
